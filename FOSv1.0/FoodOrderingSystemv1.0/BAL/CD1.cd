@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FoodOrderingSystemv1._0.Person">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAAAAEAAAAQAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>BAL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Customer">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Employee">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Admin">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BAL\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Product">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAAAAAEAAgAABAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BAL\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Menu">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <AssociationLine Name="SeeMenu" Type="FoodOrderingSystemv1._0.Customer">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.411" Y="0.289" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SeeMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Order">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <AssociationLine Name="AddOrder" Type="FoodOrderingSystemv1._0.Cart">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.912" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MAAAABAgAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BAL\Class1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SeeEmpOrder" />
+      <Property Name="AddOrder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodOrderingSystemv1._0.Cart">
+    <Position X="1" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAEAACAA=</HashCode>
+      <FileName>BAL\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
